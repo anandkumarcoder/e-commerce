@@ -37,7 +37,7 @@
     <section class="cart-box">
       <div class="card-container horizontal">
         <div class="card-main-big">
-          <i class="material-icons icon-only"> share</i>
+          <i class="material-icons icon-only">share</i>
           <img
             class="card-image"
             src="/assets/tshirt-image.jpg"
@@ -57,61 +57,32 @@
           </div>
 
           <div class="quantity">
-            <h4>Quantity</h4>
             <i class="material-icons icon-only"> add_circle_outline </i>
-            <input
-              type="text"
-              min="1"
-              max=""
-              class="input-qty"
-              id="quanity-txt"
-            />
+            1
             <i class="material-icons icon-only"> remove_circle_outline </i>
           </div>
 
           <div class="action-btn">
             <button class="btn btn-icon btn-icon-favorite">
-              <i class="material-icons"> favorite</i> Move to wishlist
+              <i class="material-icons"> favorite</i> Wishlist It
             </button>
-
             <button class="btn btn-icon btn-icon-delete delete-btn-card">
-              <i class="material-icons"> delete </i>Remove from cart
+              <i class="material-icons"> delete </i>Delete
             </button>
           </div>
         </div>
       </div>
 
       <div class="card-container card-text">
-        <h2 class="price-details-header">Price details</h2>
-
-        <div class="price-details">
-          <div class="price-box">
-            <p class="checkout-text">Price</p>
-            <p class="checkout-text">$80</p>
-          </div>
-
-          <div class="discount-box">
-            <p class="checkout-text">Discount</p>
-            <p class="checkout-text">$0</p>
-          </div>
-
-          <div class="delivery-box">
-            <p class="checkout-text">Delivery</p>
-            <p class="checkout-text">$100</p>
-          </div>
-
-          <div class="total-amount-box">
-            <p class="checkout-text">Total</p>
-            <p class="checkout-text">$180</p>
-          </div>
-        </div>
-
-        <div>
-          <button class="btn btn-icon place-order">Place order</button>
-        </div>
+        <h2 class="price-details-header fw-700">Price details</h2>
+        <ul class="price-details">
+          <li class="checkout-text">Price <span>$80</span></li>
+          <li class="checkout-text">Discount <span>$0</span></li>
+          <li class="checkout-text">Shipping <span>$20</span></li>
+          <li class="checkout-text fw-700">Total <span>$100</span></li>
+        </ul>
+        <button class="btn btn-icon place-order">Place order</button>
       </div>
-
-      
     </section>
   </body>
 </html>

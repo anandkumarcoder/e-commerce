@@ -1,11 +1,24 @@
 @import "/styles/home.css";
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&family=Roboto&display=swap");
 
-*{
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Open Sans", sans-serif;
 }
 
-.cart-box{
-    display: flex;
+.cart-box {
+  display: flex;
+  justify-content: center;
+  margin-top: 2rem;
+  gap: 3rem;
+}
+
+.right-col {
+  margin-top: 1rem;
+}
+
+.card-text {
+  width: 25%;
 }

@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+    />
+
+    <link rel="stylesheet" href="https://falconui.vercel.app/Styles/main.css" />
+
+    <link rel="stylesheet" href="/styles/cart.css" />
+  </head>
+  <body>
+    <header>
+      <div class="navigation-bar">
+        <div class="logo-name">Logo name</div>
+        <div class="navigation-links">
+          <i class="material-icons navigation-icon-only"> search </i>
+
+          <i class="material-icons navigation-icon-only"> favorite</i>
+          <i class="material-icons navigation-icon-only">shopping_cart</i>
+          <i class="material-icons navigation-icon-only">account_circle</i>
+        </div>
+      </div>
+    </header>
+
+    <section class="cart-box">
+      <div class="card-container horizontal">
+        <div class="card-main-big">
+          <i class="material-icons icon-only">share</i>
+          <img
+            class="card-image"
+            src="/assets/tshirt-image.jpg"
+            alt="T-shirt image"
+          />
+        </div>
+
+        <div class="card-details right-col">
+          <div class="prd-name">
+            <h3 class="brand-name">Venum</h3>
+            <h2 class="card-title">AUTHENTIC MEN'S WALKOUT JERSEY</h2>
+          </div>
+
+          <div class="card-price-box">
+            <h5 class="card-price">$80.00</h5>
+            <span class="price-cancelled">$120</span>
+          </div>
+
+          <div class="quantity">
+            <i class="material-icons icon-only"> add_circle_outline </i>
+            1
+            <i class="material-icons icon-only"> remove_circle_outline </i>
+          </div>
+
+          <div class="action-btn">
+            <button class="btn btn-icon btn-icon-favorite">
+              <i class="material-icons"> favorite</i> Wishlist It
+            </button>
+            <button class="btn btn-icon btn-icon-delete delete-btn-card">
+              <i class="material-icons"> delete </i>Delete
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <div class="card-container card-text">
+        <h2 class="price-details-header fw-700">Price details</h2>
+        <ul class="price-details">
+          <li class="checkout-text">Price <span>$80</span></li>
+          <li class="checkout-text">Discount <span>$0</span></li>
+          <li class="checkout-text">Shipping <span>$20</span></li>
+          <li class="checkout-text fw-700">Total <span>$100</span></li>
+        </ul>
+        <button class="btn btn-icon place-order">Place order</button>
+      </div>
+    </section>
+  </body>
+</html>

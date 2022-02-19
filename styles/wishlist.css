@@ -12,32 +12,3 @@
   gap: 2rem;
 }
 
-.card-container {
-  min-width: 60%;
-}
-
-.category {
-  padding: 1.5rem 2rem;
-}
-
-.col-1,
-.col-2,
-.col-3 {
-  background-color: transparent;
-  position: relative;
-}
-
-
-.category-box {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  height: 90%;
-  max-width: 100%;
-}
-
-.heading-category {
-  margin-top: 1rem;
-  font-size: 2rem;
-}

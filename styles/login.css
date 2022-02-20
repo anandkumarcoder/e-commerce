@@ -7,15 +7,26 @@ html {
 body {
   min-height: 100%;
 }
-.category {
+.form-section {
   display: flex;
   justify-content: center;
   margin-top: 2rem;
 }
 
-.footer-items {
+.pass-link{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+
+/* footer */
+
+.footer-items{
   margin-top: auto;
   width: 100%;
   position: absolute;
   bottom: 0;
 }
+
+

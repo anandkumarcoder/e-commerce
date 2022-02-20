@@ -6,33 +6,68 @@
   box-sizing: border-box;
   font-family: "Open Sans", sans-serif;
 }
+
+.logo-name {
+  font-size: 1.8rem;
+  padding-left: 1.5rem;
+  font-weight: 900;
+  font-family: Klavika Condensed, Arial, sans-serif;
+}
+.navigation-bar {
+  padding: 2rem 0 1rem 0;
+}
+
 .hero-box {
   padding-top: 2rem;
   margin-top: 2rem;
   text-align: center;
   max-width: 100%;
   height: auto;
+  position: relative;
+}
+
+.text-on-image {
+  position: absolute;
+  top: 60%;
+  left: 28%;
+}
+
+.text-on-image > h3 {
+  color: var(--light);
+  font-family: Klavika Condensed, Arial, sans-serif;
+  opacity: 10;
+  padding: 1.2rem;
+  font-size: 2rem;
+  line-height: 1.8;
+  font-size: 800;
+
+  -webkit-text-stroke: 1px white;
+}
+
+.text-on-image > .btn-primary {
+  color: var(--light);
+  background: var(--dark);
 }
 
 .hero-two-box {
   position: relative;
   padding: 5rem 4rem;
 }
-.btn-primary-outlined  {
+
+.btn-primary-outlined {
   color: var(--light);
-  border-color: var(--light);
-  background:var(--dark) ;
+  border-color: var(--dark);
+  background: var(--dark);
   position: absolute;
   right: 40%;
   bottom: 6rem;
   font-size: 1.5rem;
 }
 
-.btn-primary{
+.btn-primary {
   color: var(--light);
   background-color: var(--dark);
 }
-
 
 .category {
   padding: 1.5rem 2rem;
@@ -90,7 +125,6 @@ footer {
 
 .footer-link > a {
   display: inline-block;
- 
 }
 
 .fa {

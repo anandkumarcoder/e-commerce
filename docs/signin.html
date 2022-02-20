@@ -18,32 +18,34 @@
     />
 
     <link rel="stylesheet" href="https://falconui.vercel.app/Styles/main.css" />
+    <link rel="stylesheet" href="/Styles/home.css" />
 
     <link rel="stylesheet" href="/Styles/login.css" />
   </head>
   <body>
     <header>
       <div class="navigation-bar">
-        <a href="../index.html" ><div class="logo-name">Logo name</div></a>
+        <a href="#"><div class="logo-name">UFC-Kart</div></a>
         <div class="navigation-links">
           <i class="material-icons navigation-icon-only"> search </i>
+          <a href="/docs/product-listing.html">
+            <i class="material-icons navigation-icon-only"> storefront </i>
+          </a>
+          <a href="/docs/wishlist.html">
+            <i class="material-icons navigation-icon-only"> favorite</i></a
+          >
+          <a href="/docs/cart.html">
+            <i class="material-icons navigation-icon-only">shopping_cart</i>
+          </a>
 
-          <a href="/docs/wishlist.html"
-            ><i class="material-icons navigation-icon-only"> favorite</i>
-            <a href="/docs/cart.html">
-              <i class="material-icons navigation-icon-only"
-                >shopping_cart</i
-              ></a
-            >
-            <a href="/docs/signin.html">
-              <i class="material-icons navigation-icon-only"
-                >account_circle</i
-              ></a >
+          <i class="material-icons navigation-icon-only">account_circle</i>
+          <a href="/docs/signin.html">
+            <button class="btn btn-primary">Login</button></a
+          >
         </div>
       </div>
     </header>
-
-    <section class="category">
+    <section class="form-section">
       <div class="wrapper">
         <div class="login-header">Sign in</div>
         <form action="#">
@@ -75,7 +77,14 @@
             <div class="error error-text">password cant be blank</div>
           </div>
 
-          <div class="pass-link"><a href="#">Forgot password?</a></div>
+          <div class="pass-link">
+            <div class="check-box-signin">
+            <input type="checkbox" id="remember-me" />
+            <label for="remember-me"> Remember me</label>
+            </div>
+           
+            <a href="/docs/forgot-passowrd.html">Forgot password?</a>
+          </div>
 
           <input type="submit" value="Login" />
         </form>

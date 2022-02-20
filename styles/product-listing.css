@@ -43,13 +43,13 @@ aside {
 
 
 .card-shadow{
-  box-shadow: 0px 20px 50px hsl(0, 0%, 90%);
+  box-shadow: 0px 20px 50px #e6e6e6;
 }
 
 
 
 .card-overlay-badge {
-  transform: translateX(-160%);
+  transform: translateX(160%);
 }
 
 .filter-wrapper{

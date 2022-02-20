@@ -19,7 +19,7 @@
 
     <link rel="stylesheet" href="https://falconui.vercel.app/Styles/main.css" />
 
-    <link rel="stylesheet" href="/Styles/home.css" />
+    <link rel="stylesheet" href="/Styles/login.css" />
   </head>
   <body>
     <header>
@@ -35,7 +35,7 @@
                 >shopping_cart</i
               ></a
             >
-            <a href="/docs/signin.html"></a
+            <a href="/docs/login.html"></a
             ><i class="material-icons navigation-icon-only"
               >account_circle</i
             ></a
@@ -44,50 +44,48 @@
       </div>
     </header>
 
-    <main class="hero-box">
-      <img class="full-image" src="/assets/hero image.jpg" alt="hero image" />
-    </main>
-
     <section class="category">
-      <div class="grid-two-col">
-        <div class="col-1 hero-two-box">
-          <img class="full-image" src="/assets/for her.jpg" alt="hero image" />
-          <button class="btn btn-primary-outlined">For Her</button>
-        </div>
-        <div class="col-2 hero-two-box">
-          <img class="full-image" src="/assets/for him.jpg" alt="hero image" />
-          <button class="btn btn-primary-outlined">For Him</button>
-        </div>
-      </div>
+      <div class="wrapper">
+        <div class="login-header">Sign up</div>
+        <form action="#">
+          <div class="field email">
+            <div class="input-area">
+              <input
+                type="text"
+                class="email-input"
+                placeholder="Email Address"
+              />
+              <span class="icon material-icons"> email </span>
 
-      <div class="category-box">
-        <h3 class="heading-category">Shop by Category</h3>
-        <div class="grid-three-col">
-          <div class="col-1 category-box">
-            <img
-              class="full-image"
-              src="/assets/for her apparel.png"
-              alt="hero image"
-            />
-            <button class="btn btn-primary-outlined">Gloves</button>
+              <span class="error error-icon material-icons"> error </span>
+            </div>
+            <div class="error error-text">Email cant be blank</div>
           </div>
-          <div class="col-2 category-box">
-            <img
-              class="full-image"
-              src="/assets/apparel-for him.png"
-              alt="hero image"
-            />
-            <button class="btn btn-primary-outlined">Apparels</button>
+
+          <div class="field password">
+            <div class="input-area">
+              <input
+                type="password"
+                class="password-input"
+                placeholder="Password"
+              />
+              <span class="icon material-icons"> lock</span>
+
+              <span class="error error-icon material-icons"> error </span>
+            </div>
+            <div class="error error-text">Password cant be blank</div>
           </div>
-          <div class="category-box col-3">
-            <img
-              class="full-image"
-              src="/assets/accessories.png"
-              alt="hero image"
-            />
-            <button class="btn btn-primary-outlined">Accessories</button>
+
+          <div class="check-box">
+            <input type="checkbox" id="tnc" />
+            I accept all Terms & Conditions
           </div>
-        </div>
+
+          <input type="submit" value="Sign up" />
+          <a href="/docs/signin.html">
+            <input type="button" value="Already have an account"
+          /></a>
+        </form>
       </div>
     </section>
 
@@ -99,10 +97,14 @@
             <a href="#"><i class="fa fa-github text-lg mr-sm"></i></a>
           </li>
           <li class="footer-links">
-            <a href="#"><i class="fa fa-twitter text-lg"></i></a>
+            <a href="/docs/signup.html"
+              ><i class="fa fa-twitter text-lg"></i
+            ></a>
           </li>
         </ul>
       </div>
     </footer>
+
+    <script src="../script/form.js"></script>
   </body>
 </html>

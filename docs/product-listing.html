@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="Anand Kumar" />
+    <title>Document</title>
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+    />
+
+    <link rel="stylesheet" href="https://falconui.vercel.app/Styles/main.css" />
+
+    <link rel="stylesheet" href="/Styles/home.css" />
+    <link rel="stylesheet" href="/styles/produc-listing.css" />
+  </head>
+  <body>
+    <header>
+      <div class="navigation-bar">
+        <a href="#"><div class="logo-name">Logo name</div></a>
+        <div class="navigation-links">
+          <i class="material-icons navigation-icon-only"> search </i>
+          <a href="/docs/product-listing.html">
+            <i class="material-icons navigation-icon-only"> storefront </i>
+          </a>
+          <a href="/docs/wishlist.html">
+            <i class="material-icons navigation-icon-only"> favorite</i></a
+          >
+          <a href="/docs/cart.html">
+            <i class="material-icons navigation-icon-only">shopping_cart</i>
+          </a>
+
+          <i class="material-icons navigation-icon-only">account_circle</i>
+          <a href="/docs/signin.html">
+            <button class="btn btn-primary">Login</button></a
+          >
+        </div>
+      </div>
+    </header>    <section class="category">
+      <aside>
+        <div class="filter-wrapper">
+          <div class="heading-filter">
+            <h3>Filters</h3>
+            <button class="btn btn-card">Clear filter</button>
+          </div>
+
+          <div class="filter-box">
+            <h4>Rating</h4>
+            <ul class="list-style-none">
+              <li>
+                <input
+                  type="radio"
+                  id="four-star"
+                  class="ratings"
+                  value="four-star"
+                />
+                <label for="four-star">Four star and above</label>
+              </li>
+              <li>
+                <input
+                  type="radio"
+                  id="four-star"
+                  class="ratings"
+                  value="four-star"
+                />
+                <label for="four-star">Four star and above</label>
+              </li>
+              <li>
+                <input
+                  type="radio"
+                  id="four-star"
+                  class="ratings"
+                  value="four-star"
+                />
+                <label for="four-star">Four star and above</label>
+              </li>
+              <li>
+                <input
+                  type="radio"
+                  id="four-star"
+                  class="ratings"
+                  value="four-star"
+                />
+                <label for="four-star">Four star and above</label>
+              </li>
+            </ul>
+          </div>
+
+          <div class="filter-box">
+            <h4>Category</h4>
+            <ul class="list-style-none">
+              <li>
+                <input
+                  type="checkbox"
+                  id="category"
+                  class="ratings"
+                  value="apparel"
+                  checked
+                />
+                <label for="apparel">Apparel</label>
+              </li>
+              <li>
+                <input
+                  type="checkbox"
+                  id="category"
+                  class="ratings"
+                  value="apparel"
+                />
+                <label for="apparel">Gloves</label>
+              </li>
+              <li>
+                <input
+                  type="checkbox"
+                  id="category"
+                  class="ratings"
+                  value="apparel"
+                />
+                <label for="apparel">Accessories</label>
+              </li>
+            </ul>
+          </div>
+
+          <div class="filter-box">
+            <h4>Sort By</h4>
+            <ul class="list-style-none">
+              <li>
+                <input
+                  type="radio"
+                  id="htl"
+                  class="price"
+                  value="price high to low"
+                  checked
+                />
+                <label for="price high to low">Price high to low</label>
+              </li>
+              <li>
+                <input
+                  type="radio"
+                  id="htl"
+                  class="price"
+                  value="price high to low"
+                  checked
+                />
+                <label for="price high to low">Price high to low</label>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </aside>
+      <div class="category-box">
+        <!-- <h3 class="heading-category">Your Wishlist</h3> -->
+        <div class="grid-three-col">
+          <div class="col-1 category-box">
+            <div class="card-container card-shadow">
+              <div class="card-overlay-badge">Sale</div>
+              <img
+                class="card-image"
+                src="/assets/tshirt-image.jpg"
+                alt="T-shirt image"
+              />
+
+              <div class="card-details">
+                <h2 class="card-title">AUTHENTIC MEN'S WALKOUT JERSEY</h2>
+                <h5 class="card-price">$80.00</h5>
+                <button class="btn btn-card">Add to cart</button>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-2 category-box">
+            <div class="card-container card-shadow">
+              <img
+                class="card-image"
+                src="/assets/tshirt-image.jpg"
+                alt="T-shirt image"
+              />
+
+              <div class="card-details">
+                <h2 class="card-title">AUTHENTIC MEN'S WALKOUT JERSEY</h2>
+                <h5 class="card-price">$80.00</h5>
+                <button class="btn btn-card">Add to cart</button>
+              </div>
+            </div>
+          </div>
+          <div class="category-box col-3">
+            <div class="card-container card-shadow">
+              <img
+                class="card-image"
+                src="/assets/tshirt-image.jpg"
+                alt="T-shirt image"
+              />
+
+              <div class="card-details">
+                <h2 class="card-title">AUTHENTIC MEN'S WALKOUT JERSEY</h2>
+                <h5 class="card-price">$80.00</h5>
+                <button class="btn btn-card">Add to cart</button>
+              </div>
+            </div>
+          </div>
+
+          <div class="category-box col-3">
+            <div class="card-container card-shadow">
+              <div class="card-overlay-badge">Sale</div>
+              <img
+                class="card-image"
+                src="/assets/tshirt-image.jpg"
+                alt="T-shirt image"
+              />
+
+              <div class="card-details">
+                <h2 class="card-title">AUTHENTIC MEN'S WALKOUT JERSEY</h2>
+                <h5 class="card-price">$80.00</h5>
+                <button class="btn btn-card">Add to cart</button>
+              </div>
+            </div>
+
+           
+
+           
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <div class="footer-items">
+        <h4>made by anand kumar</h4>
+        <ul class="footer-icon-holder">
+          <li class="footer-links">
+            <a href="#"><i class="fa fa-github text-lg mr-sm"></i></a>
+          </li>
+          <li class="footer-links">
+            <a href="#"><i class="fa fa-twitter text-lg"></i></a>
+          </li>
+        </ul>
+      </div>
+    </footer>
+  </body>
+</html>

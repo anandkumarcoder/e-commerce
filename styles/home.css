@@ -1,9 +1,11 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&family=Roboto&display=swap");
+
 * {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+  font-family: "Open Sans", sans-serif;
 }
-
 .hero-box {
   padding-top: 2rem;
   margin-top: 2rem;
@@ -14,8 +16,9 @@
 
 .hero-two-box {
   position: relative;
+  padding: 5rem 4rem;
 }
-.btn-primary-outlined {
+.btn-primary-outlined  {
   color: var(--light);
   border-color: var(--light);
   background:var(--dark) ;
@@ -23,6 +26,11 @@
   right: 40%;
   bottom: 6rem;
   font-size: 1.5rem;
+}
+
+.btn-primary{
+  color: var(--light);
+  background-color: var(--dark);
 }
 
 

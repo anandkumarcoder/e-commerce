@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="Anand Kumar" />
+    <title>Document</title>
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+    />
+
+    <link rel="stylesheet" href="https://falconui.vercel.app/Styles/main.css" />
+
+    <link rel="stylesheet" href="/Styles/login.css" />
+  </head>
+  <body>
+    <header>
+      <div class="navigation-bar">
+        <div class="logo-name">Logo name</div>
+        <div class="navigation-links">
+          <i class="material-icons navigation-icon-only"> search </i>
+
+          <a href="/docs/wishlist.html"
+            ><i class="material-icons navigation-icon-only"> favorite</i>
+            <a href="/docs/cart.html">
+              <i class="material-icons navigation-icon-only"
+                >shopping_cart</i
+              ></a
+            >
+            <a href="/docs/login.html"></a
+            ><i class="material-icons navigation-icon-only"
+              >account_circle</i
+            ></a
+          >
+        </div>
+      </div>
+    </header>
+
+    <section class="category">
+      <div class="wrapper">
+        <div class="login-header">Sign in</div>
+        <form action="#">
+          <div class="field email">
+            <div class="input-area">
+              <input
+                type="text"
+                class="email-input"
+                placeholder="Email Address"
+              />
+              <span class="icon material-icons"> email </span>
+
+              <span class="error error-icon material-icons"> error </span>
+            </div>
+            <div class="error error-text">Email cant be blank</div>
+          </div>
+
+          <div class="field password">
+            <div class="input-area">
+              <input
+                type="password"
+                class="password-input"
+                placeholder="password"
+              />
+              <span class="icon material-icons"> lock</span>
+
+              <span class="error error-icon material-icons"> error </span>
+            </div>
+            <div class="error error-text">password cant be blank</div>
+          </div>
+
+          <div class="pass-link"><a href="#">Forgot password?</a></div>
+
+          <input type="submit" value="Login" />
+        </form>
+        <div class="signup-link">
+          Not yet member? <a href="/docs/signup.html">Signup Now</a>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <div class="footer-items">
+        <h4>made by anand kumar</h4>
+        <ul class="footer-icon-holder">
+          <li class="footer-links">
+            <a href="#"><i class="fa fa-github text-lg mr-sm"></i></a>
+          </li>
+          <li class="footer-links">
+            <a href="#"><i class="fa fa-twitter text-lg"></i></a>
+          </li>
+        </ul>
+      </div>
+    </footer>
+    <script src="../script/form.js"></script>
+  </body>
+</html>

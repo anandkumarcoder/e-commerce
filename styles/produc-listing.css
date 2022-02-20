@@ -46,6 +46,11 @@ aside {
 }
 
 
+
+.card-overlay-badge {
+  transform: translateX(-160%);
+}
+
 .filter-wrapper{
     padding-bottom:4rem;
 }

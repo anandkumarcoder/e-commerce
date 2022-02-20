@@ -1,0 +1,84 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&family=Roboto&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Open Sans", sans-serif;
+}
+
+.grid-three-col {
+  display: grid;
+  grid-template-columns: repeat(3, auto);
+  gap: 2rem;
+}
+
+.card-container {
+  width: 80%;
+  padding: 0 ;
+  border-radius: 0 0 1rem 1rem;
+  border: none;
+}
+
+.category {
+  padding: 1.5rem 1rem;
+  display: flex;
+  gap: 2rem;
+}
+
+aside {
+  border: 1px solid #999999;
+  border-radius:0.5rem ;
+  padding: 1.5rem 0.7rem;
+  margin: 1.5rem 0;
+  width: 35%;
+  height: 100%;
+  box-shadow: 0 25px 15px #fff;
+  position: sticky;
+  top: 10px;
+  overflow: hidden;
+  overflow: auto;
+}
+
+
+.card-shadow{
+  box-shadow: 0px 20px 50px hsl(0, 0%, 90%);
+}
+
+
+
+.card-overlay-badge {
+  transform: translateX(-160%);
+}
+
+.filter-wrapper{
+    padding-bottom:4rem;
+}
+
+.btn {
+  font-size: 0.8rem;
+  line-height: normal;
+  margin: 0.5rem 0;
+}
+
+.heading-filter {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 2rem;
+  margin-top:-0.5rem ;
+
+}
+
+.heading-filter h3{
+    font-size: 1.5rem;
+}
+
+
+.filter-box {
+  margin: 1rem 0;
+}
+
+.filter-box h4 {
+  margin-bottom: 1rem;
+}

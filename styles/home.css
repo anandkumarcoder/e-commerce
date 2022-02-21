@@ -17,6 +17,19 @@
   padding: 2rem 0 1rem 0;
 }
 
+.navigation-links .icon-btn{
+  background: transparent;
+}
+
+.icon-btn-badge{
+  background: var(--dark);
+}
+
+.cart-badge{
+  background-color: white;
+  border-radius:50% ;
+}
+
 .hero-box {
   padding-top: 2rem;
   margin-top: 2rem;

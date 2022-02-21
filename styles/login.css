@@ -1,5 +1,9 @@
 @import "/styles/home.css";
 
+:root{
+  --submit-hover:#333333;
+}
+
 html {
   height: 100%;
 }
@@ -19,6 +23,17 @@ body {
   align-items: center;
 }
 
+form input[type="submit"] {
+  background:var(--dark) ;
+}
+
+form input[type="submit"]:hover {
+  background:var(--submit-hover);
+}
+
+.password-confirm{
+  margin-top: 1rem;
+}
 
 /* footer */
 

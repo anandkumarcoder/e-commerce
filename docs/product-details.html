@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="Anand Kumar" />
+    <title>Product details page</title>
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+    />
+
+    <link rel="stylesheet" href="https://falconui.vercel.app/Styles/main.css" />
+    <link rel="stylesheet" href="/styles/home.css" />
+
+    <link rel="stylesheet" href="/styles/product-details.css" />
+  </head>
+  <body>
+    <header>
+      <div class="navigation-bar">
+        <a href="../index.html"><div class="logo-name">UFC-Kart</div></a>
+        <div class="navigation-links">
+          <i class="material-icons navigation-icon-only"> search </i>
+          <a href="/docs/product-listing.html">
+            <i class="material-icons navigation-icon-only"> storefront </i>
+          </a>
+          <a href="/docs/wishlist.html">
+            <i class="material-icons navigation-icon-only"> favorite</i></a
+          >
+
+          <button type="button" class="icon-btn">
+            <a href="/docs/cart.html">
+              <i class="material-icons navigation-icon-only">shopping_cart</i>
+              <span class="icon-btn-badge">5</span>
+            </a>
+          </button>
+
+          <i class="material-icons navigation-icon-only">account_circle</i>
+          <a href="/docs/signin.html">
+            <button class="btn btn-primary">Logout</button></a
+          >
+        </div>
+      </div>
+    </header>
+
+    <section class="product-box">
+      <div class="component-container component-container-single-page">
+        <div class="card-container single-page">
+          <div class="card-main-big single-page-card">
+            <img
+              class="card-image"
+              src="/assets/tshirt-image.jpg"
+              alt="T-shirt image"
+            />
+          </div>
+
+          <div class="card-details right-col">
+            <div class="prd-name">
+              <h3 class="brand-name">Venum</h3>
+              <h2 class="card-title">AUTHENTIC MEN'S WALKOUT JERSEY</h2>
+            </div>
+
+            <div class="card-price-box">
+              <h5 class="card-price">$80.00</h5>
+            </div>
+
+            <div class="colors-holder">
+              <div class="color black"></div>
+              <div class="color red"></div>
+              <div class="color green"></div>
+            </div>
+
+            <div class="size">
+              <select class="input">
+                <option selected disabled>Select</option>
+                <option>S</option>
+                <option>M</option>
+                <option>L</option>
+                <option disabled>XL</option>
+              </select>
+            </div>
+
+            <div class="action-btn">
+              <button class="btn btn-icon btn-icon-favorite">
+                <i class="material-icons"> favorite</i> Add to wishlist
+              </button>
+
+              <button class="btn btn-icon btn-icon-add-to-cart">
+                <i class="material-icons">shopping_cart</i>Add to cart
+              </button>
+
+              <button class="btn btn-icon btn-icon-add-to-cart">
+                <i class="material-icons">share</i>Share
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <div class="footer-items">
+        <h4>made by anand kumar</h4>
+        <ul class="footer-icon-holder">
+          <li class="footer-links">
+            <a href="#"><i class="fa fa-github text-lg mr-sm"></i></a>
+          </li>
+          <li class="footer-links">
+            <a href="#"><i class="fa fa-twitter text-lg"></i></a>
+          </li>
+        </ul>
+      </div>
+    </footer>
+  </body>
+</html>

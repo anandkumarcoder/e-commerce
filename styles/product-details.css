@@ -1,0 +1,26 @@
+@import "/styles/home.css";
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&family=Roboto&display=swap");
+
+:root {
+  --wishlist-bg: #ff0000;
+  --aside-border: #999999;
+  --shadow-card: #e6e6e6;
+}
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Open Sans", sans-serif;
+}
+
+.product-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.single-page {
+  width: 80%;
+  margin-left: 6rem;
+  margin-top: 3rem;
+}

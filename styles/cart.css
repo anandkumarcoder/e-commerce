@@ -8,11 +8,21 @@
   font-family: "Open Sans", sans-serif;
 }
 
+
+html {
+  height: 100vh;
+}
+
+body {
+  min-height: 100%;
+}
 .cart-box {
   display: flex;
   justify-content: center;
   margin-top: 2rem;
   gap: 3rem;
+  align-items: center;
+  flex-wrap: wrap;
 }
 
 .right-col {
@@ -22,11 +32,13 @@
 
 .card-image {
   border-radius: 0;
-  padding-top: 1.3rem;
+  
 }
 
-.card-main-big > .icon-only{
-  transform: translate(950%,10%);
+
+
+.horizontal {
+  height: 100%;
 }
 
 .card-text {
@@ -43,3 +55,16 @@
 .checkout-text > input {
   font-size: 1rem;
 }
+
+.card-main-big > .icon-only {
+  transform:none;
+  position: absolute;
+  right: -150%;
+}
+
+.card-main-big > .card-image{
+  border-top-left-radius: 2.6rem;
+  border-top-right-radius: 2.6rem;
+}
+
+

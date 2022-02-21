@@ -18,7 +18,8 @@
 
 
 .card-overlay-badge {
-  transform: translate(140%,-25%);
+  left: 21rem;
+  top: 0.5rem;
   background: transparent;
 }
 

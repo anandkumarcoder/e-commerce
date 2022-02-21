@@ -1,3 +1,4 @@
+@import "/styles/home.css";
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&family=Roboto&display=swap");
 
 * {
@@ -42,13 +43,14 @@ aside {
 
 
 .card-shadow{
-  box-shadow: 0px 20px 50px hsl(0, 0%, 90%);
+  box-shadow: 0px 20px 50px #e6e6e6;
 }
 
 
 
 .card-overlay-badge {
-  transform: translateX(-160%);
+  transform: none;
+  right: 0;
 }
 
 .filter-wrapper{

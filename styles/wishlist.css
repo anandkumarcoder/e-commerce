@@ -12,6 +12,21 @@
   gap: 2rem;
 }
 
-.card-container{
+.card-container {
   width: 60%;
+}
+
+.card-overlay-badge {
+  transform: none;
+  right: -0.7rem;
+  top: 1.2rem;
+  background: transparent;
+}
+
+.card-overlay-badge i {
+  color: var(--input-error-border);
+}
+
+.heading-category {
+  padding-top: 1rem;
 }

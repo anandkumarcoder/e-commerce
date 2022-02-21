@@ -1,5 +1,9 @@
 @import "/styles/home.css";
 
+:root{
+  --submit-hover:#333333;
+}
+
 html {
   height: 100%;
 }
@@ -7,15 +11,37 @@ html {
 body {
   min-height: 100%;
 }
-.category {
+.form-section {
   display: flex;
   justify-content: center;
   margin-top: 2rem;
 }
 
-.footer-items {
+.pass-link{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+form input[type="submit"] {
+  background:var(--dark) ;
+}
+
+form input[type="submit"]:hover {
+  background:var(--submit-hover);
+}
+
+.password-confirm{
+  margin-top: 1rem;
+}
+
+/* footer */
+
+.footer-items{
   margin-top: auto;
   width: 100%;
   position: absolute;
   bottom: 0;
 }
+
+

@@ -22,33 +22,40 @@
   <body>
     <header>
       <div class="navigation-bar">
-        <a href="#"><div class="logo-name">Logo name</div></a>
+        <a href="../index.html"><div class="logo-name">UFC-Kart</div></a>
         <div class="navigation-links">
           <i class="material-icons navigation-icon-only"> search </i>
           <a href="/docs/product-listing.html">
             <i class="material-icons navigation-icon-only"> storefront </i>
           </a>
-          <a href="/docs/wishlist.html">
+          <a href="#">
             <i class="material-icons navigation-icon-only"> favorite</i></a
           >
-          <a href="/docs/cart.html">
-            <i class="material-icons navigation-icon-only">shopping_cart</i>
-          </a>
+          <button type="button" class="icon-btn">
+            <a href="/docs/cart.html">
+              <i class="material-icons navigation-icon-only">shopping_cart</i>
+              <span class="icon-btn-badge">5</span>
+            </a>
+          </button>
 
           <i class="material-icons navigation-icon-only">account_circle</i>
           <a href="/docs/signin.html">
-            <button class="btn btn-primary">Login</button></a
+            <button class="btn btn-primary">Logout</button></a
           >
         </div>
       </div>
     </header>
-
 
     <div class="category-box">
       <h3 class="heading-category">Your Wishlist</h3>
       <div class="grid-four-col">
         <div class="col-1 category-box">
           <div class="card-container card-shadow">
+            <span class="card-overlay-badge"
+              ><i class="material-icons navigation-icon-only">
+                favorite</i
+              ></span
+            >
             <img
               class="card-image"
               src="/assets/tshirt-image.jpg"
@@ -59,12 +66,18 @@
               <h2 class="card-title">AUTHENTIC MEN'S WALKOUT JERSEY</h2>
               <h5 class="card-price">$80.00</h5>
               <button class="btn btn-card">Add to cart</button>
+              <button class="btn btn-card">Remove</button>
             </div>
           </div>
         </div>
 
         <div class="col-2 category-box">
           <div class="card-container card-shadow">
+            <span class="card-overlay-badge"
+              ><i class="material-icons navigation-icon-only">
+                favorite</i
+              ></span
+            >
             <img
               class="card-image"
               src="/assets/tshirt-image.jpg"
@@ -75,11 +88,17 @@
               <h2 class="card-title">AUTHENTIC MEN'S WALKOUT JERSEY</h2>
               <h5 class="card-price">$80.00</h5>
               <button class="btn btn-card">Add to cart</button>
+              <button class="btn btn-icon btn-icon-favorite">Remove</button>
             </div>
           </div>
         </div>
         <div class="category-box col-3">
           <div class="card-container card-shadow">
+            <span class="card-overlay-badge"
+              ><i class="material-icons navigation-icon-only">
+                favorite</i
+              ></span
+            >
             <img
               class="card-image"
               src="/assets/tshirt-image.jpg"
@@ -90,12 +109,16 @@
               <h2 class="card-title">AUTHENTIC MEN'S WALKOUT JERSEY</h2>
               <h5 class="card-price">$80.00</h5>
               <button class="btn btn-card">Add to cart</button>
+              <button class="btn btn-card">Remove</button>
             </div>
           </div>
         </div>
 
         <div class="category-box col-3">
           <div class="card-container card-shadow">
+            <div class="card-overlay-badge">
+              <i class="material-icons navigation-icon-only"> favorite</i>
+            </div>
             <img
               class="card-image"
               src="/assets/tshirt-image.jpg"
@@ -106,11 +129,10 @@
               <h2 class="card-title">AUTHENTIC MEN'S WALKOUT JERSEY</h2>
               <h5 class="card-price">$80.00</h5>
               <button class="btn btn-card">Add to cart</button>
+              <button class="btn btn-card">Remove</button>
             </div>
           </div>
         </div>
-
-        
       </div>
     </div>
 
@@ -127,6 +149,5 @@
         </ul>
       </div>
     </footer>
-  
   </body>
 </html>

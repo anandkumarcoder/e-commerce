@@ -17,17 +17,17 @@
   padding: 2rem 0 1rem 0;
 }
 
-.navigation-links .icon-btn{
+.navigation-links .icon-btn {
   background: transparent;
 }
 
-.icon-btn-badge{
+.icon-btn-badge {
   background: var(--dark);
 }
 
-.cart-badge{
-  background-color: white;
-  border-radius:50% ;
+.cart-badge {
+  background-color: var(--light);
+  border-radius: 50%;
 }
 
 .hero-box {
@@ -53,8 +53,7 @@
   font-size: 2rem;
   line-height: 1.8;
   font-size: 800;
-
-  -webkit-text-stroke: 1px white;
+  -webkit-text-stroke: 1px var(--light);
 }
 
 .text-on-image > .btn-primary {

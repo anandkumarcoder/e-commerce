@@ -1,11 +1,10 @@
 @import "/styles/home.css";
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&family=Roboto&display=swap");
 
-
-:root{
-  --wishlist-bg:#ff0000;
-  --aside-border:#999999;
-  --shadow-card:#e6e6e6;
+:root {
+  --wishlist-bg: #ff0000;
+  --aside-border: #999999;
+  --shadow-card: #e6e6e6;
 }
 * {
   padding: 0;
@@ -22,7 +21,7 @@
 
 .card-container {
   width: 80%;
-  padding: 0 ;
+  padding: 0;
   border-radius: 0 0 1rem 1rem;
   border: none;
 }
@@ -35,7 +34,7 @@
 
 aside {
   border: 1px solid #999999;
-  border-radius:0.5rem ;
+  border-radius: 0.5rem;
   padding: 1.5rem 0.7rem;
   margin: 1.5rem 0;
   width: 35%;
@@ -47,27 +46,22 @@ aside {
   overflow: auto;
 }
 
-
-.card-shadow{
+.card-shadow {
   box-shadow: 0px 20px 50px var(--shadow-card);
 }
-
-
 
 .card-overlay-badge {
   transform: none;
   right: 0;
   background: none;
   cursor: pointer;
- 
 }
- .fav:hover{
+.fav:hover {
   color: var(--wishlist-bg);
-  
 }
 
-.filter-wrapper{
-    padding-bottom:4rem;
+.filter-wrapper {
+  padding-bottom: 4rem;
 }
 
 .btn {
@@ -81,14 +75,12 @@ aside {
   justify-content: space-between;
   align-items: center;
   gap: 2rem;
-  margin-top:-0.5rem ;
-
+  margin-top: -0.5rem;
 }
 
-.heading-filter h3{
-    font-size: 1.5rem;
+.heading-filter h3 {
+  font-size: 1.5rem;
 }
-
 
 .filter-box {
   margin: 1rem 0;

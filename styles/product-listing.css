@@ -89,3 +89,20 @@ aside {
 .filter-box h4 {
   margin-bottom: 1rem;
 }
+
+html {
+  height: 100vh;
+}
+
+body {
+  min-height: 100%;
+  position: relative;
+  padding-bottom: 9rem;
+}
+
+.footer-items {
+  margin-top: auto;
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+}
